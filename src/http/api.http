@@ -1,0 +1,24 @@
+### List pending goals
+GET http://localhost:3333/pending-goals
+Accept: application/json
+
+### List week summary
+GET http://localhost:3333/summary
+Accept: application/json
+
+### Create goals
+POST http://localhost:3333/goals
+Content-Type: application/json
+
+{
+  "title": "Pedalar",
+  "desiredWeeklyFrequency": 3
+}
+
+### Create completions
+POST http://localhost:3333/completions
+Content-Type: application/json
+
+{
+  "goalId": "bzuq293ynejf7drgp18oqh2e"
+}
