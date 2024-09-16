@@ -11,8 +11,8 @@ POST http://localhost:3333/goals
 Content-Type: application/json
 
 {
-  "title": "Pedalar",
-  "desiredWeeklyFrequency": 3
+  "title": "Estudar",
+  "desiredWeeklyFrequency": 4
 }
 
 ### Create completions
@@ -20,5 +20,5 @@ POST http://localhost:3333/completions
 Content-Type: application/json
 
 {
-  "goalId": "bzuq293ynejf7drgp18oqh2e"
+  "goalId": "zb3l491ae0xx3vyrox13bj99"
 }
